@@ -1,0 +1,13 @@
+body {
+    height: 100vh;
+    background: #11a2d7;
+}
+
+.headline       {color:#fff;}
+.emptymessage   {font-style:italic;}
+.listelement    {padding-right:10px;}
+
+input[type="checkbox"] {
+    height: 25px;
+    width: 20px;
+}

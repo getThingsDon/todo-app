@@ -1,0 +1,59 @@
+<!---- DHU 07062022 | Creating a ToDo List 
+
+# Training Goal 1 - To-Do App with Typescript, HTML,CSS
+README in \\intel6\Projekte\90089 - Trainingsprojekte\DHU\Training Goal 1 'Exam'- ToDo List Project.md
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- EXTERNAL LINKS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <!-- EXTERNAL LINKS -->
+
+    <title>Todo App</title>
+</head>
+<body class="d-flex justify-content-center align-items-center">
+    <!-- BODY SECTION -->
+    <div class="container">
+        <div class="row">
+            <div class="col-4 mx-auto">
+                <!-- HEADER -->
+                <h1 class="text-center fw-bold headline">WUNDERLIST</h1>
+                <!-- HEADER -->
+
+                <br>
+                <br>
+
+                <!-- TO DO BODY and Results -->
+                <div id="todo_body" class="row gy-3"></div>
+                <!-- TO DO BODY -->
+
+                <br>
+                <br>
+
+                <!-- ADD TO-DO -->
+                <div class="d-flex">
+                    <input id="add_field" class="w-100 form-control" type="text" placeholder="Enter Text" value="" onchange="inpHandle(this.value)">
+                    <button id="submit_btn" class="btn btn-warning">Submit</button>
+                </div>
+                <!-- ADD TO-DO -->
+            </div>
+        </div>
+    </div>
+    <!-- BODY SECTION -->
+
+    
+    <!-- EXTERNAL LINKS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <!-- EXTERNAL LINKS -->
+
+    <!-- CUSTOM SCRIPT -->
+    <script src="./assets/ts/script.js"></script>
+</body>
+</html>
